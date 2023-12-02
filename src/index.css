@@ -1,13 +1,49 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  background-color: rgb(53, 186, 53);
+  height: 100vh;
+  padding: 50px;
+}
+
+nav {
+  width: 60%;
+  margin: 0px auto;
+  background-color: rgb(166, 171, 230);
+  font-size: 20px;
+  height: 0px;
+  overflow: hidden;
+}
+
+.open {
+  width: 60%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: rgb(55, 92, 123);
+  padding: 10px;
+}
+
+.open i {
+  padding: 10px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  border: 1px solid gainsboro;
+  padding: 15px;
 }
